@@ -2,7 +2,7 @@
 // require('jsgettext');
 // typical use for loading translation into jsIn(jsgettext)
 $.ajax({
-    url: "/Home/GetLanguageDictionary",
+    url: "/International/GetLanguageDictionary",
     async: false,
     dataType: "json",
     success: function(d) {
